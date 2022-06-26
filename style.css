@@ -1,0 +1,103 @@
+/* this is a comment in CSS */
+
+/*
+https://www.educative.io/answers/class-and-id-selectors-in-css
+*/
+
+/*
+
+selectors: 
+             class and id
+
+class  --->   .  --->for a set of objetcs
+id     --->   #  ---> for single object
+*/
+
+html{
+    background-color:azure;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar{
+    display: grid;
+    /* cuz i wanna two cloums so two autos*/
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid green;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    /* background-color: bisque; */
+}
+
+.text_resize
+{
+    font-size: 70px;
+}
+
+.to_right
+{
+    text-align: right;
+}
+
+
+/* class */
+.james-photo{
+    width: 300px;
+}
+
+/* id */
+#grettings{
+    color:coral;
+}
+
+.major-box{
+    padding: 30px;
+    /* padding-top: 100px; */
+    /* also we can do left/right */
+    border: 1px solid green;
+    /* margin: 100px; */
+}
+
+.major-box_2{
+    padding: 30px;
+    /* padding-top: 100px; */
+    /* also we can do left/right */
+    border: 1px solid green;
+    /* margin: 100px; */
+    padding-bottom: 66px;
+    padding-top: 68px;
+}
+
+.grid-0{
+    display: grid;
+    /* cuz i wanna two cloums so two autos*/
+    grid-template-columns: auto auto; 
+}
+
+.bix-0{
+    padding-right: 20px;
+}
+
+.center {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+/* .image_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    height: auto;
+} */
+
+
+/* .image-center {
+    text-align: center;
+  } */
